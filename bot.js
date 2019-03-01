@@ -9,6 +9,7 @@ const youtube = new simpleytapi(yt_api_key);
 const prefix = "2";
 client.login(process.env.BOT);
 var guilds = {};
+var x = client.channels.get("548258718777868291");
 
 /////////////////////////////////////////////////////////////////
 client.on("ready", () => {
